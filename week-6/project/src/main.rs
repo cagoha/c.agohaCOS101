@@ -65,17 +65,17 @@ fn cube_surfacearea(){
 fn cylinder_volume(){
     let mut input1 = String::new(); 
     let mut input2 = String::new();
-    let pi = 22 / 7;
+    let pi:f64 = 3.142;
 
-    println!("\nEnter the value for radius");
+    println!("\nEnter the value for radius(in decimal expression e.g 1.0)");
     io::stdin().read_line(&mut input1).expect("Failed to read input");
-    let radius:i32 = input1.trim().parse().expect("Invalid input");
+    let radius:f64 = input1.trim().parse().expect("Invalid input");
 
-    println!("\nEnter the value for height");
+    println!("\nEnter the value for height(in decimal expression e.g 1.0)");
     io::stdin().read_line(&mut input2).expect("Failed to read input");
-    let height:i32 = input2.trim().parse().expect("Invalid input");
+    let height:f64 = input2.trim().parse().expect("Invalid input");
 
-    let volume = pi * radius * radius * height;
+    let volume:f64 = pi * radius * radius * height;
     println!("Volume is {}",volume );
 }
 fn main() {
