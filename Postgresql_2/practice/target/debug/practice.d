@@ -1,0 +1,1 @@
+C:\Users\HQAdmin\Documents\COS101\ Main\COS101\c.agohaCOS101\Postgresql_2\practice\target\debug\practice.exe: C:\Users\HQAdmin\Documents\COS101\ Main\COS101\c.agohaCOS101\Postgresql_2\practice\src\main.rs
